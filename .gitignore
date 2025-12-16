@@ -1,0 +1,13 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# VS Code
+.vscode/
+
+# Cursor
+.cursorindexingignore
+
+# SpecStory
+.specstory/
