@@ -11,6 +11,12 @@
 		A1000003238ABCDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004238ABCDE /* ContentView.swift */; };
 		A1000005238ABCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000006238ABCDE /* Assets.xcassets */; };
 		A1000007238ABCDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000008238ABCDE /* Preview Assets.xcassets */; };
+		A100001A238ABCDE /* HabitState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000019238ABCDE /* HabitState.swift */; };
+		A100001C238ABCDE /* StateColorTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001B238ABCDE /* StateColorTestView.swift */; };
+		A100001E238ABCDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001D238ABCDE /* HomeView.swift */; };
+		A1000020238ABCDE /* SummaryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F238ABCDE /* SummaryGrid.swift */; };
+		A1000022238ABCDE /* DateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000021238ABCDE /* DateSelector.swift */; };
+		A1000024238ABCDE /* HabitLogCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000023238ABCDE /* HabitLogCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		A1000004238ABCDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1000006238ABCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000008238ABCDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1000019238ABCDE /* HabitState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitState.swift; sourceTree = "<group>"; };
+		A100001B238ABCDE /* StateColorTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateColorTestView.swift; sourceTree = "<group>"; };
+		A100001D238ABCDE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A100001F238ABCDE /* SummaryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryGrid.swift; sourceTree = "<group>"; };
+		A1000021238ABCDE /* DateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelector.swift; sourceTree = "<group>"; };
+		A1000023238ABCDE /* HabitLogCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLogCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +65,48 @@
 			children = (
 				A1000002238ABCDE /* HabitsApp.swift */,
 				A1000004238ABCDE /* ContentView.swift */,
+				A1000025238ABCDE /* Models */,
+				A1000026238ABCDE /* Features */,
+				A1000029238ABCDE /* Debug */,
 				A1000006238ABCDE /* Assets.xcassets */,
 				A100000E238ABCDE /* Preview Content */,
 			);
 			path = Habits;
+			sourceTree = "<group>";
+		};
+		A1000025238ABCDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000019238ABCDE /* HabitState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000026238ABCDE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A1000027238ABCDE /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A1000027238ABCDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A100001D238ABCDE /* HomeView.swift */,
+				A100001F238ABCDE /* SummaryGrid.swift */,
+				A1000021238ABCDE /* DateSelector.swift */,
+				A1000023238ABCDE /* HabitLogCard.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1000029238ABCDE /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				A100001B238ABCDE /* StateColorTestView.swift */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		A100000E238ABCDE /* Preview Content */ = {
@@ -139,6 +189,12 @@
 			files = (
 				A1000003238ABCDE /* ContentView.swift in Sources */,
 				A1000001238ABCDE /* HabitsApp.swift in Sources */,
+				A100001A238ABCDE /* HabitState.swift in Sources */,
+				A100001C238ABCDE /* StateColorTestView.swift in Sources */,
+				A100001E238ABCDE /* HomeView.swift in Sources */,
+				A1000020238ABCDE /* SummaryGrid.swift in Sources */,
+				A1000022238ABCDE /* DateSelector.swift in Sources */,
+				A1000024238ABCDE /* HabitLogCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
